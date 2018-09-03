@@ -1,0 +1,14 @@
+•Retrieving the number of Bitcoin closed contributions every month:
+select TIMESTAMP_TRUNC(i.created_at, MONTH) as month, count(*) as closed
+from `ghtorrent-bq.ght_2017_05_01.issues`  i, `ghtorrent-bq.ght_2017_05_01.issue_events`  ie, `ghtorrent-bq.ght_2017_05_01.projects`  p, `ghtorrent-bq.ght_2017_05_01.users`  u 
+where ie.issue_id = i.id
+  and ie.action = 'closed'
+  and p.id = i.repo_id 
+  and u.login = 'bitcoin' 
+  and p.name ='bitcoin' 
+  and p.id = 864
+group by month;
+
+number of Bitcoin closed contributions every month.csv
+
+
