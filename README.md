@@ -12,9 +12,7 @@ By using GitHub archive of data, we quantify aspects
 of developer participation, community growth and internal issues
 for this OSS project. We then use the price of the Bitcoin token to correlate
 and reveal some important patterns that may indicate new behaviors in
-the OSS community. We conclude that a new economy got created in the
-OSS community by the issuing of crypto-currency that get real-world value
-from its core and volunteer work.
+the OSS community.
 
 ## Retrieving the GitHub Archive data
 
