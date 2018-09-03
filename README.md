@@ -1,5 +1,5 @@
 # Bitcoin-GitHub-Analysis
-*Analysis of the Bitcoin Open source project though GitHub Archive data*
+## Analysis of the Bitcoin Open source project though GitHub Archive data
 
 In ten years of existence, Bitcoin proved to be the most successful cryptographic
 currency in the history. Originally created by Satoshi Nakamoto,
